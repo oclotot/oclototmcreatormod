@@ -22,6 +22,11 @@ public class NiewiemModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(NiewiemModItems.ENDERIORITE_INGOT.get());
+			tabData.accept(NiewiemModItems.RAW_ENDERIORITE.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(NiewiemModBlocks.ENDERIOTE.get().asItem());
 		}

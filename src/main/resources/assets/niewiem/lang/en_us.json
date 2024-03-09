@@ -1,5 +1,7 @@
 {
+  "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
   "biome.niewiem.rainforest": "Rainforest",
-  "block.niewiem.enderiote": "Enderiote",
-  "enchantment.niewiem.slownless": "Slownless"
+  "block.niewiem.enderiote": "Enderiorite",
+  "enchantment.niewiem.slownless": "Slownless",
+  "item.niewiem.raw_enderiorite": "Raw Enderiorite"
 }

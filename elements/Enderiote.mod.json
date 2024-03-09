@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Enderiote",
+    "name": "Enderiorite",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,7 +46,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:RawEnderiorite"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

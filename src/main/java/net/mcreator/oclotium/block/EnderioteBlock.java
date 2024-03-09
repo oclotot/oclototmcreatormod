@@ -13,6 +13,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.oclotium.init.NiewiemModItems;
+
 import java.util.List;
 import java.util.Collections;
 
@@ -36,6 +38,6 @@ public class EnderioteBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(NiewiemModItems.RAW_ENDERIORITE.get()));
 	}
 }

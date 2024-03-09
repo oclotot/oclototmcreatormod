@@ -70,15 +70,75 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "EnderioriteIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiorite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/item/EnderioriteIngotItem.java",
+          "src/main/resources/assets/niewiem/models/item/enderiorite_ingot.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EnderioriteIngotSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiorite_ingot_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/enderiorite_ingot_smelting.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Rawenderioritesmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawenderioritesmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/rawenderioritesmelting.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "RawEnderiorite",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_enderiorite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/item/RawEnderioriteItem.java",
+          "src/main/resources/assets/niewiem/models/item/raw_enderiorite.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "biome.niewiem.rainforest": "Rainforest",
-      "block.niewiem.enderiote": "Enderiote",
-      "enchantment.niewiem.slownless": "Slownless"
+      "block.niewiem.enderiote": "Enderiorite",
+      "enchantment.niewiem.slownless": "Slownless",
+      "item.niewiem.raw_enderiorite": "Raw Enderiorite"
     }
   },
   "foldersRoot": {
