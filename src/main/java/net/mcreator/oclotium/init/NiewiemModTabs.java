@@ -22,6 +22,10 @@ public class NiewiemModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(NiewiemModItems.PISTOL.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(NiewiemModItems.SKIBIDI_TOILET_FINAL_BOSS_SPAWN_EGG.get());
 		}

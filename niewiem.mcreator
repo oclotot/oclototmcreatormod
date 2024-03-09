@@ -176,6 +176,21 @@
           "src/main/java/net/mcreator/oclotium/client/renderer/PociskRenderer.java"
         ]
       }
+    },
+    {
+      "name": "Pistol",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/item/PistolItem.java",
+          "src/main/resources/assets/niewiem/models/item/pistol.json"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
@@ -189,7 +204,8 @@
       "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
       "block.niewiem.ender_flower": "Ender Flower",
-      "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"
+      "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg",
+      "item.niewiem.pistol": "Pistol"
     }
   },
   "foldersRoot": {
