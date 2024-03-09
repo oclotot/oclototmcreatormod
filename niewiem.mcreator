@@ -1,45 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "GuwienkoOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guwienko_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/niewiem/recipes/guwienko_ore_block_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "GuwienkoBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guwienko_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/niewiem/recipes/guwienko_block_ore_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "GuwienkoOreSmelting",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guwienko_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/niewiem/recipes/guwienko_ore_smelting.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
