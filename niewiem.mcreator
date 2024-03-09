@@ -1,18 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Dupaeryka",
-      "type": "gamerule",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dupaeryka",
-      "metadata": {
-        "files": [],
-        "type": "number"
-      }
-    },
-    {
       "name": "Sdfsdfsdftoyota",
       "type": "gamerule",
       "sortid": 1,

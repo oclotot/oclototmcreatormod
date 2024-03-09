@@ -11,5 +11,4 @@ import net.minecraft.world.level.GameRules;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class NiewiemModGameRules {
 	public static final GameRules.Key<GameRules.IntegerValue> SDFSDFSDFTOYOTA = GameRules.register("sdfsdfsdftoyota", GameRules.Category.PLAYER, GameRules.IntegerValue.create(69));
-	public static final GameRules.Key<GameRules.IntegerValue> DUPAERYKA = GameRules.register("dupaeryka", GameRules.Category.PLAYER, GameRules.IntegerValue.create(0));
 }
