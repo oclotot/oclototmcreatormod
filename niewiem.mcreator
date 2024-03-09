@@ -27,25 +27,41 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Enderiote",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiote",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/block/EnderioteBlock.java",
+          "src/main/resources/assets/niewiem/blockstates/enderiote.json",
+          "src/main/resources/assets/niewiem/models/block/enderiote.json",
+          "src/main/resources/assets/niewiem/models/item/enderiote.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.niewiem.rainforest": "Rainforest",
-      "enchantment.niewiem.slownless": "Slownless"
+      "biome.niewiem.rainforest": "Rainforest"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "ocelot",
+        "name": "krupnik",
         "children": []
       },
       {
-        "name": "krupnik",
+        "name": "ocelot",
         "children": []
       }
     ]

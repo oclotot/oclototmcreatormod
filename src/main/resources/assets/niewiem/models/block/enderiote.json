@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "niewiem:block/enderioteore",
+    "particle": "niewiem:block/enderioteore"
+  },
+  "render_type": "solid"
+}
