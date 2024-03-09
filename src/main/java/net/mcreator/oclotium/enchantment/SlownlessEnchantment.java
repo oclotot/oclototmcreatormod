@@ -12,7 +12,7 @@ public class SlownlessEnchantment extends Enchantment {
 
 	@Override
 	public int getMinLevel() {
-		return 30;
+		return 29;
 	}
 
 	@Override

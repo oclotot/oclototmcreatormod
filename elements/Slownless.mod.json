@@ -5,7 +5,7 @@
     "name": "Slownless",
     "type": "WEAPON",
     "rarity": "VERY_RARE",
-    "minLevel": 30,
+    "minLevel": 29,
     "maxLevel": 38,
     "damageModifier": 0,
     "compatibleEnchantments": [],
