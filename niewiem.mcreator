@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "GuwienkoOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guwienko_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/niewiem/recipes/guwienko_ore_block_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "GuwienkoBlockOreRecipe",
       "type": "recipe",
       "sortid": 3,
