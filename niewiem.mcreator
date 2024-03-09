@@ -3,6 +3,7 @@
     {
       "name": "Dupaeryka",
       "type": "gamerule",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dupaeryka",
@@ -14,6 +15,7 @@
     {
       "name": "Sdfsdfsdftoyota",
       "type": "gamerule",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sdfsdfsdftoyota",
