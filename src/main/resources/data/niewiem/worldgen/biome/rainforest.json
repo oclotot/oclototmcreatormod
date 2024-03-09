@@ -11,13 +11,38 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "bee",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cow",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "sheep",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "creature": [
       {
         "type": "ocelot",
         "weight": 20,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "pig",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 7
       }
     ],
     "ambient": [],
