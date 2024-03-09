@@ -7,6 +7,7 @@ package net.mcreator.oclotium.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -22,6 +23,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> ENDERIORITE_INGOT = REGISTRY.register("enderiorite_ingot", () -> new EnderioriteIngotItem());
 	public static final RegistryObject<Item> RAW_ENDERIORITE = REGISTRY.register("raw_enderiorite", () -> new RawEnderioriteItem());
 	public static final RegistryObject<Item> ENDER_FLOWER = block(NiewiemModBlocks.ENDER_FLOWER);
+	public static final RegistryObject<Item> SKIBIDI_TOILET_FINAL_BOSS_SPAWN_EGG = REGISTRY.register("skibidi_toilet_final_boss_spawn_egg", () -> new ForgeSpawnEggItem(NiewiemModEntities.SKIBIDI_TOILET_FINAL_BOSS, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -145,6 +145,37 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "SkibidiToiletFinalBoss",
+      "type": "animatedentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skibidi_toilet_final_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/entity/SkibidiToiletFinalBossEntity.java",
+          "src/main/java/net/mcreator/oclotium/client/renderer/SkibidiToiletFinalBossRenderer.java",
+          "src/main/resources/assets/niewiem/models/item/skibidi_toilet_final_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/oclotium/entity/model/SkibidiToiletFinalBossModel.java"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Pocisk",
+      "type": "projectile",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocisk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/entity/PociskEntity.java",
+          "src/main/java/net/mcreator/oclotium/client/renderer/PociskRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -155,8 +186,10 @@
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
       "enchantment.niewiem.slownless": "Slownless",
+      "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
-      "block.niewiem.ender_flower": "Ender Flower"
+      "block.niewiem.ender_flower": "Ender Flower",
+      "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"
     }
   },
   "foldersRoot": {
