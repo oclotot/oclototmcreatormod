@@ -1,9 +1,24 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Toyota",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toyota",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "gamerule.toyota.description": "brak sigmy",
+      "gamerule.toyota": "sigma"
+    }
   },
   "foldersRoot": {
     "name": "~",

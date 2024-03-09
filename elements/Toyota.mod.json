@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "sigma",
+    "description": "brak sigmy",
+    "category": "DROPS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 69
+  }
+}
