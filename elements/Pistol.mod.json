@@ -38,7 +38,7 @@
     "enableRanged": true,
     "shootConstantly": false,
     "projectile": {
-      "value": "Arrow"
+      "value": "CUSTOM:Pocisk"
     },
     "isFood": false,
     "nutritionalValue": 4,
