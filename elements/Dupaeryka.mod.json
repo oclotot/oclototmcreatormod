@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "dupa eryczka",
+    "description": "wielka dupa",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}
