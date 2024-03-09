@@ -21,6 +21,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> ENDERIOTE = block(NiewiemModBlocks.ENDERIOTE);
 	public static final RegistryObject<Item> ENDERIORITE_INGOT = REGISTRY.register("enderiorite_ingot", () -> new EnderioriteIngotItem());
 	public static final RegistryObject<Item> RAW_ENDERIORITE = REGISTRY.register("raw_enderiorite", () -> new RawEnderioriteItem());
+	public static final RegistryObject<Item> ENDER_FLOWER = block(NiewiemModBlocks.ENDER_FLOWER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

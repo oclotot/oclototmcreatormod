@@ -29,6 +29,7 @@ public class NiewiemModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(NiewiemModBlocks.ENDERIOTE.get().asItem());
+			tabData.accept(NiewiemModBlocks.ENDER_FLOWER.get().asItem());
 		}
 	}
 }

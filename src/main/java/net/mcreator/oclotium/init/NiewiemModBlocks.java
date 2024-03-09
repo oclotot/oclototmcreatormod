@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.oclotium.block.EnderioteBlock;
+import net.mcreator.oclotium.block.EnderFlowerBlock;
 import net.mcreator.oclotium.NiewiemMod;
 
 public class NiewiemModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, NiewiemMod.MODID);
 	public static final RegistryObject<Block> ENDERIOTE = REGISTRY.register("enderiote", () -> new EnderioteBlock());
+	public static final RegistryObject<Block> ENDER_FLOWER = REGISTRY.register("ender_flower", () -> new EnderFlowerBlock());
 }

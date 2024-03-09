@@ -128,6 +128,23 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "EnderFlower",
+      "type": "plant",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/block/EnderFlowerBlock.java",
+          "src/main/resources/assets/niewiem/models/block/ender_flower.json",
+          "src/main/resources/assets/niewiem/blockstates/ender_flower.json",
+          "src/main/resources/assets/niewiem/models/item/ender_flower.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
@@ -138,7 +155,8 @@
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
       "enchantment.niewiem.slownless": "Slownless",
-      "item.niewiem.raw_enderiorite": "Raw Enderiorite"
+      "item.niewiem.raw_enderiorite": "Raw Enderiorite",
+      "block.niewiem.ender_flower": "Ender Flower"
     }
   },
   "foldersRoot": {
