@@ -7,7 +7,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "ocelot",
+        "children": []
+      },
+      {
+        "name": "krupnik",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "niewiem",
