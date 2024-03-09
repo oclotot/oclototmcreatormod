@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.oclotium.init.NiewiemModTabs;
+import net.mcreator.oclotium.init.NiewiemModItems;
+import net.mcreator.oclotium.init.NiewiemModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +50,12 @@ public class NiewiemMod {
 	public NiewiemMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		NiewiemModBlocks.REGISTRY.register(bus);
+
+		NiewiemModItems.REGISTRY.register(bus);
+
+		NiewiemModTabs.REGISTRY.register(bus);
 
 	}
 

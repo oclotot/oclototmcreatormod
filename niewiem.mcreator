@@ -3,6 +3,7 @@
     {
       "name": "Rainforest",
       "type": "biome",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rainforest",
@@ -14,13 +15,31 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Enderiote",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiote",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/block/enderiote.json",
+          "src/main/java/net/mcreator/oclotium/block/EnderioteBlock.java",
+          "src/main/resources/assets/niewiem/models/item/enderiote.json",
+          "src/main/resources/assets/niewiem/blockstates/enderiote.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.niewiem.rainforest": "Rainforest"
+      "biome.niewiem.rainforest": "Rainforest",
+      "block.niewiem.enderiote": "Enderiote"
     }
   },
   "foldersRoot": {
