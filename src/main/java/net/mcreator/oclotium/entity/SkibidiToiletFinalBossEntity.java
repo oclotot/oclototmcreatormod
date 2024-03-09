@@ -180,12 +180,12 @@ public class SkibidiToiletFinalBossEntity extends Monster implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("walk"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.skibiditoilet.walk"));
 			}
 			if (this.isDeadOrDying()) {
-				return event.setAndContinue(RawAnimation.begin().thenPlay("death"));
+				return event.setAndContinue(RawAnimation.begin().thenPlay("animation.skibiditoilet.death"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.skibiditoilet.idle"));
 		}
 		return PlayState.STOP;
 	}
