@@ -14,13 +14,27 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Slownless",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slownless",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/enchantment/SlownlessEnchantment.java"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.niewiem.rainforest": "Rainforest"
+      "biome.niewiem.rainforest": "Rainforest",
+      "enchantment.niewiem.slownless": "Slownless"
     }
   },
   "foldersRoot": {
