@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "niewiem:guwienko_ingot"
+    }
+  },
+  "result": {
+    "item": "niewiem:guwienko_block",
+    "count": 1
+  }
+}

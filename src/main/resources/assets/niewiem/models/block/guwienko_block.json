@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "niewiem:block/guwienko_ore_block",
+    "particle": "niewiem:block/guwienko_ore_block"
+  },
+  "render_type": "solid"
+}
