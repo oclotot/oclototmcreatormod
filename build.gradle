@@ -22,7 +22,6 @@ minecraft {
 
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-                        args '--username', 'oclotot'
 
             mods {
                 examplemod {
