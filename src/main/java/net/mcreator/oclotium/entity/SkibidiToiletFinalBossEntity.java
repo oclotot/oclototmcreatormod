@@ -206,7 +206,7 @@ public class SkibidiToiletFinalBossEntity extends Monster implements GeoEntity {
 	@Override
 	protected void tickDeath() {
 		++this.deathTime;
-		if (this.deathTime == 20) {
+		if (this.deathTime == 30) {
 			this.remove(SkibidiToiletFinalBossEntity.RemovalReason.KILLED);
 			this.dropExperience();
 		}
