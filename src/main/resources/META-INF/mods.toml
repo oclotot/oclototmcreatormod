@@ -3,15 +3,15 @@ loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="oclotium"
+modId="niewiem"
 version="1.0.0"
-displayName="oclotium"
+displayName="niewiem"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="ocelo, MCreator"
+authors="Krupnik, Ocelot, MCreator"
 description="random stuff :>"
 
-[[dependencies.oclotium]]
+[[dependencies.niewiem]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
@@ -20,19 +20,19 @@ description="random stuff :>"
 
 
 
-[[dependencies.oclotium]]
+[[dependencies.niewiem]]
     modId="curios_api"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.oclotium]]
+[[dependencies.niewiem]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.oclotium]]
+[[dependencies.niewiem]]
     modId="jsonforhttprequest"
     mandatory=false
     versionRange="[0,)"

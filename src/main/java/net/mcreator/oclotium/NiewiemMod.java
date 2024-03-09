@@ -38,12 +38,12 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-@Mod("oclotium")
-public class OclotiumMod {
-	public static final Logger LOGGER = LogManager.getLogger(OclotiumMod.class);
-	public static final String MODID = "oclotium";
+@Mod("niewiem")
+public class NiewiemMod {
+	public static final Logger LOGGER = LogManager.getLogger(NiewiemMod.class);
+	public static final String MODID = "niewiem";
 
-	public OclotiumMod() {
+	public NiewiemMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 

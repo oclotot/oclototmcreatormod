@@ -10,11 +10,11 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "oclotium",
-    "modName": "oclotium",
+    "modid": "niewiem",
+    "modName": "niewiem",
     "version": "1.0.0",
     "description": "random stuff :\u003e",
-    "author": "ocelo, MCreator",
+    "author": "Krupnik, Ocelot, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
