@@ -23,7 +23,6 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "use_compiled_mods",
       "curios_api",
       "geckolib",
       "jsonforhttprequest"

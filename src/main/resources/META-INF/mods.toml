@@ -21,12 +21,6 @@ description="random stuff :>"
 
 
 [[dependencies.oclotium]]
-    modId="use_compiled_mods"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.oclotium]]
     modId="curios_api"
     mandatory=false
     versionRange="[0,)"
