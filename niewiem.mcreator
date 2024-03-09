@@ -11,18 +11,6 @@
         "files": [],
         "type": "number"
       }
-    },
-    {
-      "name": "Sdfsdfsdftoyota",
-      "type": "gamerule",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sdfsdfsdftoyota",
-      "metadata": {
-        "files": [],
-        "type": "number"
-      }
     }
   ],
   "variable_elements": [],
