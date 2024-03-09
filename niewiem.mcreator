@@ -10,8 +10,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/niewiem/worldgen/configured_feature/rainforest_tree.json",
-          "src/main/resources/data/niewiem/worldgen/biome/rainforest.json",
-          "src/main/resources/data/niewiem/worldgen/placed_feature/rainforest_tree.json"
+          "src/main/resources/data/niewiem/worldgen/placed_feature/rainforest_tree.json",
+          "src/main/resources/data/niewiem/worldgen/biome/rainforest.json"
         ]
       },
       "path": "~/krupnik"
@@ -39,10 +39,10 @@
       "registry_name": "enderiote",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/oclotium/block/EnderioteBlock.java",
-          "src/main/resources/assets/niewiem/blockstates/enderiote.json",
           "src/main/resources/assets/niewiem/models/block/enderiote.json",
-          "src/main/resources/assets/niewiem/models/item/enderiote.json"
+          "src/main/java/net/mcreator/oclotium/block/EnderioteBlock.java",
+          "src/main/resources/assets/niewiem/models/item/enderiote.json",
+          "src/main/resources/assets/niewiem/blockstates/enderiote.json"
         ]
       },
       "path": "~/ocelot"
@@ -76,7 +76,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.niewiem.rainforest": "Rainforest"
+      "biome.niewiem.rainforest": "Rainforest",
+      "block.niewiem.enderiote": "Enderiote",
+      "enchantment.niewiem.slownless": "Slownless"
     }
   },
   "foldersRoot": {

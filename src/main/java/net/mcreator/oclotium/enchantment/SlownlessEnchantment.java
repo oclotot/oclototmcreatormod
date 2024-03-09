@@ -1,8 +1,11 @@
 
 package net.mcreator.oclotium.enchantment;
 
-public class SlownlessEnchantment extends Enchantment {
+import net.minecraft.world.item.enchantment.EnchantmentCategory;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.minecraft.world.entity.EquipmentSlot;
 
+public class SlownlessEnchantment extends Enchantment {
 	public SlownlessEnchantment(EquipmentSlot... slots) {
 		super(Enchantment.Rarity.VERY_RARE, EnchantmentCategory.WEAPON, slots);
 	}
@@ -16,5 +19,4 @@ public class SlownlessEnchantment extends Enchantment {
 	public int getMaxLevel() {
 		return 38;
 	}
-
 }
