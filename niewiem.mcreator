@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Rainforest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/configured_feature/rainforest_tree.json",
+          "src/main/resources/data/niewiem/worldgen/biome/rainforest.json",
+          "src/main/resources/data/niewiem/worldgen/placed_feature/rainforest_tree.json"
+        ]
+      },
+      "path": "~/krupnik"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.niewiem.rainforest": "Rainforest"
+    }
   },
   "foldersRoot": {
     "name": "~",
