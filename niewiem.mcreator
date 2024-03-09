@@ -10,15 +10,23 @@
         "files": [],
         "type": "number"
       }
+    },
+    {
+      "name": "Sdfsdfsdftoyota",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sdfsdfsdftoyota",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "gamerule.dupaeryka.description": "wielka dupa",
-      "gamerule.dupaeryka": "dupa eryczka"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
