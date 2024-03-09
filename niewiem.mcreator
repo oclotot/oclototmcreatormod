@@ -3,6 +3,7 @@
     {
       "name": "Rainforest",
       "type": "biome",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rainforest",
@@ -18,6 +19,7 @@
     {
       "name": "Slownless",
       "type": "enchantment",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "slownless",
@@ -44,6 +46,30 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "Slownesshit",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slownesshit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/procedures/SlownesshitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
