@@ -11,7 +11,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewEffect": "LEVITATION",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
@@ -85,6 +85,6 @@
     "restrictionBiomes": [],
     "generationType": "Flower",
     "patchSize": 64,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": true
   }
 }

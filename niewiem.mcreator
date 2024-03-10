@@ -337,6 +337,88 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "IsOverworldBiomes",
+      "type": "tag",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_overworld_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
+        ]
+      }
+    },
+    {
+      "name": "IsEndBiomes",
+      "type": "tag",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_end_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
+        ]
+      }
+    },
+    {
+      "name": "Endstones",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/endstone.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Enderflowerspawning",
+      "type": "feature",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderflowerspawning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/placed_feature/enderflowerspawning.json",
+          "src/main/resources/data/niewiem/worldgen/configured_feature/enderflowerspawning.json",
+          "src/main/resources/data/niewiem/forge/biome_modifier/enderflowerspawning_biome_modifier.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
