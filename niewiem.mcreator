@@ -816,10 +816,10 @@
   "language_map": {
     "en_us": {
       "block.niewiem.end_stem": "End Stem",
-      "item.niewiem.enderiorite_armor_chestplate": "Enderiorite Chestplate",
       "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
-      "entity.niewiem.end_villager": "End Villager",
+      "item.niewiem.enderiorite_armor_chestplate": "Enderiorite Chestplate",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
+      "entity.niewiem.end_villager": "End Villager",
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "block.niewiem.end_shroom": "End Shroom",
       "enchantment.niewiem.poison": "Poison",
