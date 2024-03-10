@@ -53,5 +53,9 @@ public class NiewiemModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(NiewiemModBlocks.ENDERIOTE.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(NiewiemModItems.PAXEL.get());
+		}
 	}
 }

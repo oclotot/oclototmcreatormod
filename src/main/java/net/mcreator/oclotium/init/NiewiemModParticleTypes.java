@@ -17,4 +17,5 @@ public class NiewiemModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, NiewiemMod.MODID);
 	public static final RegistryObject<SimpleParticleType> ENDBIOMEPARTICLE = REGISTRY.register("endbiomeparticle", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> ENDGRASSPARTICLE = REGISTRY.register("endgrassparticle", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> GUNSHOT = REGISTRY.register("gunshot", () -> new SimpleParticleType(false));
 }

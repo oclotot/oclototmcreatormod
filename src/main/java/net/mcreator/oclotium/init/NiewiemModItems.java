@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.oclotium.item.SmallBulletItem;
 import net.mcreator.oclotium.item.RawEnderioriteItem;
 import net.mcreator.oclotium.item.PistolItem;
+import net.mcreator.oclotium.item.PaxelItem;
 import net.mcreator.oclotium.item.EnderioriteIngotItem;
 import net.mcreator.oclotium.item.CreamPuffItem;
 import net.mcreator.oclotium.NiewiemMod;
@@ -34,6 +35,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> END_STEM = block(NiewiemModBlocks.END_STEM);
 	public static final RegistryObject<Item> END_SHROOM = block(NiewiemModBlocks.END_SHROOM);
 	public static final RegistryObject<Item> END_VILLAGER_SPAWN_EGG = REGISTRY.register("end_villager_spawn_egg", () -> new ForgeSpawnEggItem(NiewiemModEntities.END_VILLAGER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> PAXEL = REGISTRY.register("paxel", () -> new PaxelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
