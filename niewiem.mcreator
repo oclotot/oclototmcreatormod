@@ -76,7 +76,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.niewiem.rainforest": "Rainforest"
+      "biome.niewiem.rainforest": "Rainforest",
+      "block.niewiem.enderiote": "Enderiote",
+      "enchantment.niewiem.slownless": "Slownless"
     }
   },
   "foldersRoot": {
