@@ -34,7 +34,7 @@
       "name": "Enderiote",
       "type": "block",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enderiote",
       "metadata": {
@@ -75,7 +75,7 @@
       "name": "Endbiomeparticle",
       "type": "particle",
       "sortid": 16,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "endbiomeparticle",
       "metadata": {
@@ -150,7 +150,7 @@
       "name": "EnderFlower",
       "type": "plant",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ender_flower",
       "metadata": {
@@ -221,7 +221,7 @@
       "name": "Endgrassparticle",
       "type": "particle",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "endgrassparticle",
       "metadata": {
@@ -250,7 +250,7 @@
       "name": "Endstonegrassblock",
       "type": "block",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "endstonegrassblock",
       "metadata": {
@@ -267,7 +267,7 @@
       "name": "Pocisk",
       "type": "projectile",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pocisk",
       "metadata": {
