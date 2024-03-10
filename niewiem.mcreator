@@ -175,7 +175,8 @@
           "src/main/java/net/mcreator/oclotium/entity/PociskEntity.java",
           "src/main/java/net/mcreator/oclotium/client/renderer/PociskRenderer.java"
         ]
-      }
+      },
+      "path": "~/krupnik"
     },
     {
       "name": "Pistol",
@@ -216,7 +217,8 @@
           "src/main/resources/assets/niewiem/models/item/small_bullet.json",
           "src/main/java/net/mcreator/oclotium/item/SmallBulletItem.java"
         ]
-      }
+      },
+      "path": "~/krupnik"
     },
     {
       "name": "Endstonegrassblock",
@@ -360,7 +362,7 @@
     "description": "random stuff :\u003e",
     "author": "Krupnik, Ocelot, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "Apache License version 2.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
