@@ -45,12 +45,12 @@ public class PistolItem extends Item {
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = InteractionResultHolder.success(entity.getItemInHand(hand));
 		entity.startUsingItem(hand);
-		PistolPlayerFinishesUsingItemProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 		return ar;
 	}
 
 	@Override
 	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+		PistolPlayerFinishesUsingItemProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
 			ItemStack stack = ProjectileWeaponItem.getHeldProjectile(entity, e -> e.getItem() == PociskEntity.PROJECTILE_ITEM.getItem());
 			if (stack == ItemStack.EMPTY) {

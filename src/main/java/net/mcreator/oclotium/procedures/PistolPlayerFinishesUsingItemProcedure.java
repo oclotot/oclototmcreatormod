@@ -9,6 +9,6 @@ import net.mcreator.oclotium.init.NiewiemModParticleTypes;
 public class PistolPlayerFinishesUsingItemProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (NiewiemModParticleTypes.GUNSHOT.get()), x, y, z, 8, 0.1, 0.1, 0.1, 0.5);
+			_level.sendParticles((SimpleParticleType) (NiewiemModParticleTypes.GUNSHOT.get()), x, (y + 1), z, 1, 0.1, 0.1, 0.1, 0.5);
 	}
 }
