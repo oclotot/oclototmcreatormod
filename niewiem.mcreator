@@ -506,6 +506,20 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Poison",
+      "type": "enchantment",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/enchantment/PoisonEnchantment.java"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
@@ -521,6 +535,7 @@
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
+      "enchantment.niewiem.poison": "Poison",
       "item.niewiem.cream_puff": "Cream Puff",
       "biome.niewiem.end_biome_01": "End Biome 0 1",
       "block.niewiem.end_flower": "End Flower",
