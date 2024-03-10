@@ -475,6 +475,23 @@
         "files": []
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "EndFlower",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/block/end_flower.json",
+          "src/main/java/net/mcreator/oclotium/block/EndFlowerBlock.java",
+          "src/main/resources/assets/niewiem/models/item/end_flower.json",
+          "src/main/resources/assets/niewiem/blockstates/end_flower.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
@@ -492,6 +509,7 @@
       "block.niewiem.enderiote": "Enderiorite",
       "item.niewiem.cream_puff": "Cream Puff",
       "biome.niewiem.end_biome_01": "End Biome 0 1",
+      "block.niewiem.end_flower": "End Flower",
       "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
       "item_group.niewiem.oclototitemus": "ocelot\u0027s items",
       "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"

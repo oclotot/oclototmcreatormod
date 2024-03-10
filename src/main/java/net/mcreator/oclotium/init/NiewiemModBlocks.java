@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.oclotium.block.EndstonegrassblockBlock;
 import net.mcreator.oclotium.block.EnderioteBlock;
 import net.mcreator.oclotium.block.EnderFlowerBlock;
+import net.mcreator.oclotium.block.EndFlowerBlock;
 import net.mcreator.oclotium.NiewiemMod;
 
 public class NiewiemModBlocks {
@@ -20,4 +21,5 @@ public class NiewiemModBlocks {
 	public static final RegistryObject<Block> ENDERIOTE = REGISTRY.register("enderiote", () -> new EnderioteBlock());
 	public static final RegistryObject<Block> ENDER_FLOWER = REGISTRY.register("ender_flower", () -> new EnderFlowerBlock());
 	public static final RegistryObject<Block> ENDSTONEGRASSBLOCK = REGISTRY.register("endstonegrassblock", () -> new EndstonegrassblockBlock());
+	public static final RegistryObject<Block> END_FLOWER = REGISTRY.register("end_flower", () -> new EndFlowerBlock());
 }

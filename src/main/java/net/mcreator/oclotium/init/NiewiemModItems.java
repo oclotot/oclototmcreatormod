@@ -31,6 +31,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> SMALL_BULLET = REGISTRY.register("small_bullet", () -> new SmallBulletItem());
 	public static final RegistryObject<Item> ENDSTONEGRASSBLOCK = block(NiewiemModBlocks.ENDSTONEGRASSBLOCK);
 	public static final RegistryObject<Item> CREAM_PUFF = REGISTRY.register("cream_puff", () -> new CreamPuffItem());
+	public static final RegistryObject<Item> END_FLOWER = block(NiewiemModBlocks.END_FLOWER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

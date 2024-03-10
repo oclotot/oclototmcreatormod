@@ -25,6 +25,7 @@ public class NiewiemModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.niewiem.oclototitemus")).icon(() -> new ItemStack(NiewiemModBlocks.ENDER_FLOWER.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NiewiemModBlocks.ENDSTONEGRASSBLOCK.get().asItem());
 				tabData.accept(NiewiemModItems.CREAM_PUFF.get());
+				tabData.accept(NiewiemModBlocks.END_FLOWER.get().asItem());
 			})
 
 					.build());
