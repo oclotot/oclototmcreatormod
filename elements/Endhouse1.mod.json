@@ -17,7 +17,7 @@
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "terrainAdaptation": "none",
+    "terrainAdaptation": "beard_thin",
     "generationStep": "SURFACE_STRUCTURES"
   }
 }
