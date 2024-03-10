@@ -717,7 +717,8 @@
     {
       "name": "EnderioriteArmor",
       "type": "armor",
-      "compiles": true,
+      "sortid": 43,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enderiorite_armor",
       "metadata": {
@@ -734,6 +735,7 @@
     {
       "name": "EnderioriteArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_boots_recipe",
@@ -747,6 +749,7 @@
     {
       "name": "EnderioriteArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_helmet_recipe",
@@ -760,6 +763,7 @@
     {
       "name": "EnderioriteArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_chestplate_recipe",
@@ -773,6 +777,7 @@
     {
       "name": "EnderioriteArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_leggings_recipe",
@@ -788,29 +793,29 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.niewiem.small_bullet": "Small Bullet",
+      "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",
+      "gui.niewiem.end_villager_trade_gui.label_1_enderiorite_2_emeralds": "1 emerald ----\u003e 5 cream puffs",
       "block.niewiem.end_stem": "End Stem",
+      "item.niewiem.paxel": "Paxel",
       "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
+      "enchantment.niewiem.slownless": "Slownless",
+      "block.niewiem.endstonegrassblock": "Endstonegrassblock",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
       "entity.niewiem.end_villager": "End Villager",
+      "item.niewiem.pistol": "Pistol",
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
+      "biome.niewiem.rainforest": "Rainforest",
+      "block.niewiem.enderiote": "Enderiorite",
       "block.niewiem.end_shroom": "End Shroom",
       "enchantment.niewiem.poison": "Poison",
       "gui.niewiem.end_villager_trade_gui.button_trade": "trade",
       "block.niewiem.end_flower": "End Flower",
       "biome.niewiem.end_biome_01": "End Biome 0 1",
-      "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
-      "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg",
-      "item.niewiem.small_bullet": "Small Bullet",
-      "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",
-      "gui.niewiem.end_villager_trade_gui.label_1_enderiorite_2_emeralds": "1 emerald ----\u003e 5 cream puffs",
-      "item.niewiem.paxel": "Paxel",
-      "enchantment.niewiem.slownless": "Slownless",
-      "block.niewiem.endstonegrassblock": "Endstonegrassblock",
-      "item.niewiem.pistol": "Pistol",
-      "biome.niewiem.rainforest": "Rainforest",
-      "block.niewiem.enderiote": "Enderiorite",
       "item.niewiem.cream_puff": "Cream Puff",
-      "item_group.niewiem.oclototitemus": "ocelot\u0027s items"
+      "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
+      "item_group.niewiem.oclototitemus": "ocelot\u0027s items",
+      "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"
     }
   },
   "foldersRoot": {
