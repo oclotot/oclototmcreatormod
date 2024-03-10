@@ -3,7 +3,7 @@
   "_type": "projectile",
   "definition": {
     "projectileItem": {
-      "value": "Items.COPPER_INGOT"
+      "value": "CUSTOM:SmallBullet"
     },
     "showParticles": true,
     "actionSound": {

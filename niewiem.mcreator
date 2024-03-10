@@ -203,6 +203,20 @@
         "files": []
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "SmallBullet",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/small_bullet.json",
+          "src/main/java/net/mcreator/oclotium/item/SmallBulletItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -210,6 +224,7 @@
   "language_map": {
     "en_us": {
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
+      "item.niewiem.small_bullet": "Small Bullet",
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
       "enchantment.niewiem.slownless": "Slownless",

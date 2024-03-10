@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.oclotium.item.SmallBulletItem;
 import net.mcreator.oclotium.item.RawEnderioriteItem;
 import net.mcreator.oclotium.item.PistolItem;
 import net.mcreator.oclotium.item.EnderioriteIngotItem;
@@ -26,6 +27,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> ENDER_FLOWER = block(NiewiemModBlocks.ENDER_FLOWER);
 	public static final RegistryObject<Item> SKIBIDI_TOILET_FINAL_BOSS_SPAWN_EGG = REGISTRY.register("skibidi_toilet_final_boss_spawn_egg", () -> new ForgeSpawnEggItem(NiewiemModEntities.SKIBIDI_TOILET_FINAL_BOSS, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
+	public static final RegistryObject<Item> SMALL_BULLET = REGISTRY.register("small_bullet", () -> new SmallBulletItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

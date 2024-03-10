@@ -24,6 +24,7 @@ public class NiewiemModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(NiewiemModItems.PISTOL.get());
+			tabData.accept(NiewiemModItems.SMALL_BULLET.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
