@@ -551,6 +551,38 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "PistolPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/procedures/PistolPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],

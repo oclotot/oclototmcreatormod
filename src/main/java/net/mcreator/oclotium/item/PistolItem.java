@@ -16,6 +16,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.oclotium.procedures.PistolPlayerFinishesUsingItemProcedure;
 import net.mcreator.oclotium.entity.PociskEntity;
 
 import java.util.List;
@@ -27,7 +28,7 @@ public class PistolItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.CROSSBOW;
+		return UseAnim.BOW;
 	}
 
 	@Override
@@ -45,6 +46,16 @@ public class PistolItem extends Item {
 		InteractionResultHolder<ItemStack> ar = InteractionResultHolder.success(entity.getItemInHand(hand));
 		entity.startUsingItem(hand);
 		return ar;
+	}
+
+	@Override
+	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
+		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		PistolPlayerFinishesUsingItemProcedure.execute(world, x, y, z);
+		return retval;
 	}
 
 	@Override
