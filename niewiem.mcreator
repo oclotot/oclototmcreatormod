@@ -520,6 +520,22 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Endhouse1",
+      "type": "structure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endhouse_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/template_pool/endhouse_1.json",
+          "src/main/resources/data/niewiem/worldgen/structure_set/endhouse_1.json",
+          "src/main/resources/data/niewiem/worldgen/structure/endhouse_1.json"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
