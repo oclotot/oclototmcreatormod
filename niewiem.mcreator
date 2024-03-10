@@ -449,6 +449,20 @@
         "files": []
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "Recipeforsmallbullet",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipeforsmallbullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/small_bullet_recipe.json"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
