@@ -702,6 +702,7 @@
     {
       "name": "EnderioriteArmor",
       "type": "armor",
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor",
@@ -719,6 +720,7 @@
     {
       "name": "EnderioriteArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_boots_recipe",
@@ -732,6 +734,7 @@
     {
       "name": "EnderioriteArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_helmet_recipe",
@@ -745,6 +748,7 @@
     {
       "name": "EnderioriteArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_chestplate_recipe",
@@ -758,6 +762,7 @@
     {
       "name": "EnderioriteArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_leggings_recipe",
@@ -767,6 +772,36 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Onplayerticksss",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onplayerticksss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/procedures/OnplayerticksssProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "OnderioriteNecklace",
+      "type": "curiosbauble",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onderiorite_necklace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/onderiorite_necklace.json",
+          "src/main/java/net/mcreator/oclotium/item/OnderioriteNecklaceItem.java"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
@@ -785,6 +820,7 @@
       "block.niewiem.end_flower": "End Flower",
       "biome.niewiem.end_biome_01": "End Biome 0 1",
       "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
+      "item.niewiem.onderiorite_necklace": "Onderiorite Necklace",
       "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg",
       "item.niewiem.small_bullet": "Small Bullet",
       "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",

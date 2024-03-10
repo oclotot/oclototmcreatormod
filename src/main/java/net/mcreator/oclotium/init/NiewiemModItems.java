@@ -17,6 +17,7 @@ import net.mcreator.oclotium.item.SmallBulletItem;
 import net.mcreator.oclotium.item.RawEnderioriteItem;
 import net.mcreator.oclotium.item.PistolItem;
 import net.mcreator.oclotium.item.PaxelItem;
+import net.mcreator.oclotium.item.OnderioriteNecklaceItem;
 import net.mcreator.oclotium.item.EnderioriteIngotItem;
 import net.mcreator.oclotium.item.EnderioriteArmorItem;
 import net.mcreator.oclotium.item.CreamPuffItem;
@@ -41,6 +42,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> ENDERIORITE_ARMOR_CHESTPLATE = REGISTRY.register("enderiorite_armor_chestplate", () -> new EnderioriteArmorItem.Chestplate());
 	public static final RegistryObject<Item> ENDERIORITE_ARMOR_LEGGINGS = REGISTRY.register("enderiorite_armor_leggings", () -> new EnderioriteArmorItem.Leggings());
 	public static final RegistryObject<Item> ENDERIORITE_ARMOR_BOOTS = REGISTRY.register("enderiorite_armor_boots", () -> new EnderioriteArmorItem.Boots());
+	public static final RegistryObject<Item> ONDERIORITE_NECKLACE = REGISTRY.register("onderiorite_necklace", () -> new OnderioriteNecklaceItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

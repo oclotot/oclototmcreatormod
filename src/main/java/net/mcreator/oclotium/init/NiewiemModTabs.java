@@ -60,6 +60,7 @@ public class NiewiemModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(NiewiemModItems.PAXEL.get());
+			tabData.accept(NiewiemModItems.ONDERIORITE_NECKLACE.get());
 		}
 	}
 }
