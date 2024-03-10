@@ -1,6 +1,20 @@
 
 package net.mcreator.oclotium.client.renderer;
 
+import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import software.bernie.geckolib.cache.object.BakedGeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+
+import net.mcreator.oclotium.entity.model.SkibidiToiletFinalBossModel;
+import net.mcreator.oclotium.entity.SkibidiToiletFinalBossEntity;
+
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
 public class SkibidiToiletFinalBossRenderer extends GeoEntityRenderer<SkibidiToiletFinalBossEntity> {
 	public SkibidiToiletFinalBossRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new SkibidiToiletFinalBossModel());
