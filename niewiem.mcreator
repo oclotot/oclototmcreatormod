@@ -598,6 +598,20 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Endrioritepaxelrecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endrioritepaxelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/endrioritepaxelrecipe.json"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],

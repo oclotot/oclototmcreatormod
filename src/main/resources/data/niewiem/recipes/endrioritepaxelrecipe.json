@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "paxels",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "abc",
+    "cbd"
+  ],
+  "key": {
+    "a": {
+      "item": "niewiem:enderiorite_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "niewiem:ender_flower"
+    },
+    "d": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "niewiem:paxel",
+    "count": 1
+  }
+}

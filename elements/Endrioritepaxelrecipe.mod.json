@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "paxels",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnderioriteIngot"
+      },
+      {
+        "value": "CUSTOM:EnderioriteIngot"
+      },
+      {
+        "value": "CUSTOM:EnderioriteIngot"
+      },
+      {
+        "value": "CUSTOM:EnderioriteIngot"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:EnderFlower"
+      },
+      {
+        "value": "CUSTOM:EnderFlower"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STRING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Paxel"
+    },
+    "name": "endrioritepaxelrecipe",
+    "namespace": "mod"
+  }
+}
