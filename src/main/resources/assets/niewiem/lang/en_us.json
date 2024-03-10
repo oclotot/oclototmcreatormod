@@ -5,7 +5,6 @@
   "item.niewiem.raw_enderiorite": "Raw Enderiorite",
   "entity.niewiem.end_villager": "End Villager",
   "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
-  "painting.niewiem.siurek.title": "Siurek",
   "block.niewiem.end_shroom": "End Shroom",
   "enchantment.niewiem.poison": "Poison",
   "gui.niewiem.end_villager_trade_gui.button_trade": "trade",
@@ -26,6 +25,5 @@
   "biome.niewiem.rainforest": "Rainforest",
   "block.niewiem.enderiote": "Enderiorite",
   "item.niewiem.cream_puff": "Cream Puff",
-  "painting.niewiem.siurek.author": "Krupnik",
   "item_group.niewiem.oclototitemus": "ocelot\u0027s items"
 }
