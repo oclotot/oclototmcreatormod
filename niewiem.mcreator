@@ -702,6 +702,7 @@
     {
       "name": "EnderioriteArmor",
       "type": "armor",
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor",
@@ -719,6 +720,7 @@
     {
       "name": "EnderioriteArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_helmet_recipe",
@@ -732,6 +734,7 @@
     {
       "name": "EnderioriteArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_chestplate_recipe",
@@ -745,6 +748,7 @@
     {
       "name": "EnderioriteArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_leggings_recipe",
@@ -758,6 +762,7 @@
     {
       "name": "EnderioriteArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_boots_recipe",
@@ -774,10 +779,10 @@
   "language_map": {
     "en_us": {
       "block.niewiem.end_stem": "End Stem",
-      "item.niewiem.enderiorite_armor_chestplate": "Enderiorite Chestplate",
       "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
-      "entity.niewiem.end_villager": "End Villager",
+      "item.niewiem.enderiorite_armor_chestplate": "Enderiorite Chestplate",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
+      "entity.niewiem.end_villager": "End Villager",
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "block.niewiem.end_shroom": "End Shroom",
       "enchantment.niewiem.poison": "Poison",
