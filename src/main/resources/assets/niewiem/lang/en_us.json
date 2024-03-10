@@ -1,5 +1,16 @@
 {
+  "item.niewiem.small_bullet": "Small Bullet",
+  "enchantment.niewiem.slownless": "Slownless",
+  "block.niewiem.endstonegrassblock": "Endstonegrassblock",
+  "item.niewiem.raw_enderiorite": "Raw Enderiorite",
+  "block.niewiem.ender_flower": "Ender Flower",
+  "item.niewiem.pistol": "Pistol",
+  "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
   "biome.niewiem.rainforest": "Rainforest",
-  "block.niewiem.enderiote": "Enderiote",
-  "enchantment.niewiem.slownless": "Slownless"
+  "block.niewiem.enderiote": "Enderiorite",
+  "item.niewiem.cream_puff": "Cream Puff",
+  "biome.niewiem.end_biome_01": "End Biome 0 1",
+  "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
+  "item_group.niewiem.oclototitemus": "ocelot\u0027s items",
+  "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"
 }
