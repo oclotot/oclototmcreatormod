@@ -155,10 +155,10 @@ public class EndVillagerEntity extends PathfinderMob implements GeoEntity {
 		return super.hurt(source, amount);
 	}
 
-	private final ItemStackHandler inventory = new ItemStackHandler(4) {
+	private final ItemStackHandler inventory = new ItemStackHandler(10) {
 		@Override
 		public int getSlotLimit(int slot) {
-			return 1;
+			return 10;
 		}
 	};
 	private final CombinedInvWrapper combined = new CombinedInvWrapper(inventory, new EntityHandsInvWrapper(this), new EntityArmorInvWrapper(this));
