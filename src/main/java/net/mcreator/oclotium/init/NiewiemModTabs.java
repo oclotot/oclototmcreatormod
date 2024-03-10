@@ -51,5 +51,9 @@ public class NiewiemModTabs {
 			tabData.accept(NiewiemModBlocks.ENDERIOTE.get().asItem());
 			tabData.accept(NiewiemModBlocks.ENDER_FLOWER.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(NiewiemModItems.PAXEL.get());
+		}
 	}
 }

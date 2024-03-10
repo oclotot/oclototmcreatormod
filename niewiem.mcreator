@@ -583,6 +583,21 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Paxel",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paxel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/paxel.json",
+          "src/main/java/net/mcreator/oclotium/item/PaxelItem.java"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
@@ -590,6 +605,7 @@
   "language_map": {
     "en_us": {
       "item.niewiem.small_bullet": "Small Bullet",
+      "item.niewiem.paxel": "Paxel",
       "enchantment.niewiem.slownless": "Slownless",
       "block.niewiem.endstonegrassblock": "Endstonegrassblock",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
