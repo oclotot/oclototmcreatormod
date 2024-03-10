@@ -1,0 +1,13 @@
+{
+  "_fv": 57,
+  "_type": "endstone",
+  "definition": {
+    "block": {
+      "value": "CUSTOM:Endstonegrassblock"
+    },
+    "mixins": [
+      "ChorusFlowerBlockMixin",
+      "ChorusPlantBlockMixin"
+    ]
+  }
+}

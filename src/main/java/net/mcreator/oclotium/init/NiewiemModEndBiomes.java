@@ -15,8 +15,8 @@ public class NiewiemModEndBiomes {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
-			TheEndBiomes.addHighlandsBiome(ResourceKey.create(Registries.BIOME, new ResourceLocation("niewiem:end_biome_01")), 0.8d);
-			TheEndBiomes.addMidlandsBiome(ResourceKey.create(Registries.BIOME, new ResourceLocation("niewiem:end_biome_01")), ResourceKey.create(Registries.BIOME, new ResourceLocation("niewiem:end_biome_01")), 0.8d);
+			TheEndBiomes.addHighlandsBiome(ResourceKey.create(Registries.BIOME, new ResourceLocation("niewiem:end_biome_01")), 1.6d);
+			TheEndBiomes.addMidlandsBiome(ResourceKey.create(Registries.BIOME, new ResourceLocation("niewiem:end_biome_01")), ResourceKey.create(Registries.BIOME, new ResourceLocation("niewiem:end_biome_01")), 1.6d);
 		});
 	}
 }
