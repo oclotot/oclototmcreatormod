@@ -4,7 +4,7 @@
     "to_place": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "niewiem:ender_flower"
+        "Name": "niewiem:end_flower"
       }
     }
   }
