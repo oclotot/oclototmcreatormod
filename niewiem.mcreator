@@ -130,23 +130,6 @@
       "path": "~/ocelot"
     },
     {
-      "name": "EnderFlower",
-      "type": "plant",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ender_flower",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/oclotium/block/EnderFlowerBlock.java",
-          "src/main/resources/assets/niewiem/models/block/ender_flower.json",
-          "src/main/resources/assets/niewiem/blockstates/ender_flower.json",
-          "src/main/resources/assets/niewiem/models/item/ender_flower.json"
-        ]
-      },
-      "path": "~/ocelot"
-    },
-    {
       "name": "SkibidiToiletFinalBoss",
       "type": "animatedentity",
       "sortid": 10,
@@ -520,6 +503,109 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "EndStem",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/end_stem.json",
+          "src/main/java/net/mcreator/oclotium/block/EndStemBlock.java",
+          "src/main/resources/assets/niewiem/blockstates/end_stem.json",
+          "src/main/resources/assets/niewiem/models/block/end_stem.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EndShroom",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_shroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/end_shroom.json",
+          "src/main/resources/assets/niewiem/blockstates/end_shroom.json",
+          "src/main/resources/assets/niewiem/models/block/end_shroom.json",
+          "src/main/java/net/mcreator/oclotium/block/EndShroomBlock.java"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "BigShroomSpawning",
+      "type": "feature",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_shroom_spawning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/forge/biome_modifier/big_shroom_spawning_biome_modifier.json",
+          "src/main/resources/data/niewiem/worldgen/configured_feature/big_shroom_spawning.json",
+          "src/main/resources/data/niewiem/worldgen/placed_feature/big_shroom_spawning.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EndVillager",
+      "type": "animatedentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_villager",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/client/renderer/EndVillagerRenderer.java",
+          "src/main/java/net/mcreator/oclotium/entity/model/EndVillagerModel.java",
+          "src/main/resources/assets/niewiem/models/item/end_villager_spawn_egg.json",
+          "src/main/java/net/mcreator/oclotium/entity/EndVillagerEntity.java"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EndVillagerTradeGUI",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_villager_trade_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/network/EndVillagerTradeGUIButtonMessage.java",
+          "src/main/java/net/mcreator/oclotium/world/inventory/EndVillagerTradeGUIMenu.java",
+          "src/main/java/net/mcreator/oclotium/client/gui/EndVillagerTradeGUIScreen.java"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Endvillagertradingprocedure",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endvillagertradingprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/procedures/EndvillagertradingprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
@@ -527,15 +613,21 @@
   "language_map": {
     "en_us": {
       "item.niewiem.small_bullet": "Small Bullet",
+      "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",
+      "gui.niewiem.end_villager_trade_gui.label_1_enderiorite_2_emeralds": "1 emerald ----\u003e 5 cream puffs",
+      "block.niewiem.end_stem": "End Stem",
+      "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
       "enchantment.niewiem.slownless": "Slownless",
       "block.niewiem.endstonegrassblock": "Endstonegrassblock",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
-      "block.niewiem.ender_flower": "Ender Flower",
+      "entity.niewiem.end_villager": "End Villager",
       "item.niewiem.pistol": "Pistol",
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
+      "block.niewiem.end_shroom": "End Shroom",
       "enchantment.niewiem.poison": "Poison",
+      "gui.niewiem.end_villager_trade_gui.button_trade": "trade",
       "item.niewiem.cream_puff": "Cream Puff",
       "biome.niewiem.end_biome_01": "End Biome 0 1",
       "block.niewiem.end_flower": "End Flower",

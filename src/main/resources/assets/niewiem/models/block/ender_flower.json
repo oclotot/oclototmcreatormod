@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "niewiem:block/enderflowertexture",
-    "particle": "niewiem:block/enderflowertexture"
-  },
-  "render_type": "cutout"
-}

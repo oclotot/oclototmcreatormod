@@ -1,0 +1,127 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 192,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_trade",
+          "text": "trade",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Endvillagertradingprocedure"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 188,
+          "y": 99
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.EMERALD"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 48
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 48
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.EMERALD"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 151,
+          "y": 84
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 259,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_emerald_3_end_flowers",
+          "text": {
+            "fixedValue": "1 emerald ----> 3 end flowers"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_enderiorite_2_emeralds",
+          "text": {
+            "fixedValue": "1 emerald ----> 5 cream puffs"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 74
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 13,
+      "oy": 23,
+      "snapOnGrid": false
+    }
+  }
+}

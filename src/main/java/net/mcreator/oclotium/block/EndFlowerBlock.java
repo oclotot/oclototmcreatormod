@@ -22,7 +22,7 @@ import java.util.Collections;
 
 public class EndFlowerBlock extends Block {
 	public EndFlowerBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

@@ -26,6 +26,8 @@ public class NiewiemModTabs {
 				tabData.accept(NiewiemModBlocks.ENDSTONEGRASSBLOCK.get().asItem());
 				tabData.accept(NiewiemModItems.CREAM_PUFF.get());
 				tabData.accept(NiewiemModBlocks.END_FLOWER.get().asItem());
+				tabData.accept(NiewiemModBlocks.END_STEM.get().asItem());
+				tabData.accept(NiewiemModBlocks.END_SHROOM.get().asItem());
 			})
 
 					.build());
@@ -40,6 +42,7 @@ public class NiewiemModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(NiewiemModItems.SKIBIDI_TOILET_FINAL_BOSS_SPAWN_EGG.get());
+			tabData.accept(NiewiemModItems.END_VILLAGER_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -49,7 +52,6 @@ public class NiewiemModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(NiewiemModBlocks.ENDERIOTE.get().asItem());
-			tabData.accept(NiewiemModBlocks.ENDER_FLOWER.get().asItem());
 		}
 	}
 }

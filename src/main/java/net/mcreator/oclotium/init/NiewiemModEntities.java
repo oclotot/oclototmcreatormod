@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.oclotium.entity.SkibidiToiletFinalBossEntity;
 import net.mcreator.oclotium.entity.PociskEntity;
+import net.mcreator.oclotium.entity.EndVillagerEntity;
 import net.mcreator.oclotium.NiewiemMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -30,6 +31,10 @@ public class NiewiemModEntities {
 					.sized(0.8f, 1.7f));
 	public static final RegistryObject<EntityType<PociskEntity>> POCISK = register("projectile_pocisk",
 			EntityType.Builder.<PociskEntity>of(PociskEntity::new, MobCategory.MISC).setCustomClientFactory(PociskEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<EndVillagerEntity>> END_VILLAGER = register("end_villager",
+			EntityType.Builder.<EndVillagerEntity>of(EndVillagerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EndVillagerEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -39,11 +44,13 @@ public class NiewiemModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			SkibidiToiletFinalBossEntity.init();
+			EndVillagerEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SKIBIDI_TOILET_FINAL_BOSS.get(), SkibidiToiletFinalBossEntity.createAttributes().build());
+		event.put(END_VILLAGER.get(), EndVillagerEntity.createAttributes().build());
 	}
 }

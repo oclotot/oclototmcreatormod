@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oclotium.init.NiewiemModTabs;
 import net.mcreator.oclotium.init.NiewiemModParticleTypes;
+import net.mcreator.oclotium.init.NiewiemModMenus;
 import net.mcreator.oclotium.init.NiewiemModItems;
 import net.mcreator.oclotium.init.NiewiemModEntities;
 import net.mcreator.oclotium.init.NiewiemModEnchantments;
@@ -63,6 +64,7 @@ public class NiewiemMod {
 
 		NiewiemModParticleTypes.REGISTRY.register(bus);
 
+		NiewiemModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

@@ -2,14 +2,14 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "enderflowertexture",
+    "texture": "mushroomstem",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,35 +18,35 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 4.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 4.0,
-        "Mx": 12.0,
-        "My": 14.0,
-        "Mz": 12.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "End Flower",
+    "name": "End Shroom",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 0.0,
-    "resistance": 0.0,
+    "hardness": 0.2,
+    "resistance": 0.2,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Oclototitemus"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -54,9 +54,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "PLANTS"
+      "value": "CLOTH"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -70,7 +70,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "WALKABLE",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -78,10 +78,10 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "CLOTH"
     },
     "breakSound": {
       "value": ""
@@ -121,7 +121,11 @@
     "fluidRestrictions": [],
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
