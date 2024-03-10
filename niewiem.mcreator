@@ -536,6 +536,21 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Gunshot",
+      "type": "particle",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunshot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/client/particle/GunshotParticle.java",
+          "src/main/resources/assets/niewiem/particles/gunshot.json"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],

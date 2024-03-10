@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.oclotium.client.particle.GunshotParticle;
 import net.mcreator.oclotium.client.particle.EndgrassparticleParticle;
 import net.mcreator.oclotium.client.particle.EndbiomeparticleParticle;
 
@@ -18,5 +19,6 @@ public class NiewiemModParticles {
 	public static void registerParticles(RegisterParticleProvidersEvent event) {
 		event.registerSpriteSet(NiewiemModParticleTypes.ENDBIOMEPARTICLE.get(), EndbiomeparticleParticle::provider);
 		event.registerSpriteSet(NiewiemModParticleTypes.ENDGRASSPARTICLE.get(), EndgrassparticleParticle::provider);
+		event.registerSpriteSet(NiewiemModParticleTypes.GUNSHOT.get(), GunshotParticle::provider);
 	}
 }
