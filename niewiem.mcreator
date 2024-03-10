@@ -70,6 +70,373 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Endbiomeparticle",
+      "type": "particle",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endbiomeparticle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/client/particle/EndbiomeparticleParticle.java",
+          "src/main/resources/assets/niewiem/particles/endbiomeparticle.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "RawEnderiorite",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_enderiorite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/item/RawEnderioriteItem.java",
+          "src/main/resources/assets/niewiem/models/item/raw_enderiorite.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "SkibidiToiletFinalBoss",
+      "type": "animatedentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skibidi_toilet_final_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/client/renderer/SkibidiToiletFinalBossRenderer.java",
+          "src/main/resources/assets/niewiem/models/item/skibidi_toilet_final_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/oclotium/entity/SkibidiToiletFinalBossEntity.java",
+          "src/main/java/net/mcreator/oclotium/entity/model/SkibidiToiletFinalBossModel.java"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EnderioriteIngotSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiorite_ingot_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/enderiorite_ingot_smelting.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EndBiome01",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_biome_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/biome/end_biome_01.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EnderFlower",
+      "type": "plant",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/ender_flower.json",
+          "src/main/java/net/mcreator/oclotium/block/EnderFlowerBlock.java",
+          "src/main/resources/assets/niewiem/blockstates/ender_flower.json",
+          "src/main/resources/assets/niewiem/models/block/ender_flower.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EndstonegrassblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstonegrassblock_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/procedures/EndstonegrassblockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Enderflowerspawning",
+      "type": "feature",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderflowerspawning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/configured_feature/enderflowerspawning.json",
+          "src/main/resources/data/niewiem/forge/biome_modifier/enderflowerspawning_biome_modifier.json",
+          "src/main/resources/data/niewiem/worldgen/placed_feature/enderflowerspawning.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Rawenderioritesmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawenderioritesmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/rawenderioritesmelting.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Endgrassparticle",
+      "type": "particle",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endgrassparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/particles/endgrassparticle.json",
+          "src/main/java/net/mcreator/oclotium/client/particle/EndgrassparticleParticle.java"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Endstonegrassblock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstonegrassblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/blockstates/endstonegrassblock.json",
+          "src/main/java/net/mcreator/oclotium/block/EndstonegrassblockBlock.java",
+          "src/main/resources/assets/niewiem/models/item/endstonegrassblock.json",
+          "src/main/resources/assets/niewiem/models/block/endstonegrassblock.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Pocisk",
+      "type": "projectile",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocisk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/entity/PociskEntity.java",
+          "src/main/java/net/mcreator/oclotium/client/renderer/PociskRenderer.java"
+        ]
+      },
+      "path": "~/krupnik"
+    },
+    {
+      "name": "SmallBullet",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/small_bullet.json",
+          "src/main/java/net/mcreator/oclotium/item/SmallBulletItem.java"
+        ]
+      },
+      "path": "~/krupnik"
+    },
+    {
+      "name": "EnderioriteIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiorite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/enderiorite_ingot.json",
+          "src/main/java/net/mcreator/oclotium/item/EnderioriteIngotItem.java"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Pistol",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/item/PistolItem.java",
+          "src/main/resources/assets/niewiem/models/item/pistol.json"
+        ]
+      },
+      "path": "~/krupnik"
+    },
+    {
+      "name": "IsEndBiomes",
+      "type": "tag",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_end_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "CreamPuff",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream_puff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/item/CreamPuffItem.java",
+          "src/main/resources/assets/niewiem/models/item/cream_puff.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "IsOverworldBiomes",
+      "type": "tag",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_overworld_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Oclototitemus",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oclototitemus",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "EndstonegrassblockUpdateTick",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstonegrassblock_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/procedures/EndstonegrassblockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "Endstones",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/endstone.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],

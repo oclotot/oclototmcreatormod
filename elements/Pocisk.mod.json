@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:SmallBullet"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 3.0,
+    "damage": 2.0,
+    "knockback": 2,
+    "entityModel": "Modelsmallbullet",
+    "customModelTexture": "rrrrrrrrrr.png"
+  }
+}

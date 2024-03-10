@@ -1,0 +1,7 @@
+{
+  "parent": "niewiem:custom/creampuff",
+  "textures": {
+    "0": "niewiem:block/creampufftexture",
+    "particle": "niewiem:item/creampufftexture"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "niewiem:block/end_stone",
+    "up": "niewiem:block/endstonegrasstop",
+    "north": "niewiem:block/endstonegrass",
+    "east": "niewiem:block/endstonegrass",
+    "south": "niewiem:block/endstonegrass",
+    "west": "niewiem:block/endstonegrass",
+    "particle": "niewiem:block/end_stone"
+  },
+  "render_type": "solid"
+}

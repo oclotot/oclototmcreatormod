@@ -30,7 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.oclotium.init.NiewiemModTabs;
+import net.mcreator.oclotium.init.NiewiemModParticleTypes;
 import net.mcreator.oclotium.init.NiewiemModItems;
+import net.mcreator.oclotium.init.NiewiemModEntities;
 import net.mcreator.oclotium.init.NiewiemModEnchantments;
 import net.mcreator.oclotium.init.NiewiemModBlocks;
 
@@ -55,9 +57,11 @@ public class NiewiemMod {
 		NiewiemModBlocks.REGISTRY.register(bus);
 
 		NiewiemModItems.REGISTRY.register(bus);
-
+		NiewiemModEntities.REGISTRY.register(bus);
 		NiewiemModEnchantments.REGISTRY.register(bus);
 		NiewiemModTabs.REGISTRY.register(bus);
+
+		NiewiemModParticleTypes.REGISTRY.register(bus);
 
 	}
 

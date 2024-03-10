@@ -1,0 +1,121 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.skibiditoilet.idle": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"bone3": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.25": {
+							"vector": [1, 1.025, 1]
+						},
+						"0.5": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"bone7": {
+					"scale": {
+						"vector": [1, 1, 0.4]
+					}
+				}
+			}
+		},
+		"animation.skibiditoilet.walk": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"bone3": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.25": {
+							"vector": [1, 1.025, 1]
+						},
+						"0.5": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"bone7": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, -0.5]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.25": {
+							"vector": [1, 1, 1.05]
+						},
+						"0.5": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		},
+		"animation.skibiditoilet.death": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.5,
+			"bones": {
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 45, 0],
+						"0.5": [0, 90, 0],
+						"0.75": [0, 135, 0],
+						"1.0": [0, 185, 0],
+						"1.25": [0, 225, 0],
+						"1.5": [0, 270, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [1, 0.9, 1],
+						"0.5": [1, 0.8, 1],
+						"0.75": [1, 0.7, 1],
+						"1.0": [1, 0.6, 1],
+						"1.25": [1, 0.5, 1],
+						"1.5": [1, 0.4, 1]
+					}
+				},
+				"bone7": {
+					"scale": [1, 1, 0.4]
+				}
+			}
+		},
+		"animation.skibiditoilet.attack": {
+			"animation_length": 0.25,
+			"bones": {
+				"bone5": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [0, 0, -5],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

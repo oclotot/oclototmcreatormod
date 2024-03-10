@@ -1,0 +1,29 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:Endstonegrassblock"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:Endstonegrassblock"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "endstone",
+    "namespace": "forge"
+  }
+}
