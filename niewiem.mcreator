@@ -704,8 +704,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",
       "item.niewiem.small_bullet": "Small Bullet",
+      "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",
       "gui.niewiem.end_villager_trade_gui.label_1_enderiorite_2_emeralds": "1 emerald ----\u003e 5 cream puffs",
       "block.niewiem.end_stem": "End Stem",
       "item.niewiem.paxel": "Paxel",
