@@ -18,6 +18,7 @@ import net.mcreator.oclotium.item.RawEnderioriteItem;
 import net.mcreator.oclotium.item.PistolItem;
 import net.mcreator.oclotium.item.PaxelItem;
 import net.mcreator.oclotium.item.EnderioriteIngotItem;
+import net.mcreator.oclotium.item.EnderioriteArmorItem;
 import net.mcreator.oclotium.item.CreamPuffItem;
 import net.mcreator.oclotium.NiewiemMod;
 
@@ -36,6 +37,10 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> END_SHROOM = block(NiewiemModBlocks.END_SHROOM);
 	public static final RegistryObject<Item> END_VILLAGER_SPAWN_EGG = REGISTRY.register("end_villager_spawn_egg", () -> new ForgeSpawnEggItem(NiewiemModEntities.END_VILLAGER, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PAXEL = REGISTRY.register("paxel", () -> new PaxelItem());
+	public static final RegistryObject<Item> ENDERIORITE_ARMOR_HELMET = REGISTRY.register("enderiorite_armor_helmet", () -> new EnderioriteArmorItem.Helmet());
+	public static final RegistryObject<Item> ENDERIORITE_ARMOR_CHESTPLATE = REGISTRY.register("enderiorite_armor_chestplate", () -> new EnderioriteArmorItem.Chestplate());
+	public static final RegistryObject<Item> ENDERIORITE_ARMOR_LEGGINGS = REGISTRY.register("enderiorite_armor_leggings", () -> new EnderioriteArmorItem.Leggings());
+	public static final RegistryObject<Item> ENDERIORITE_ARMOR_BOOTS = REGISTRY.register("enderiorite_armor_boots", () -> new EnderioriteArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
