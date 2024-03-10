@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "guns",
+  "category": "equipment",
+  "pattern": [
+    "abc",
+    "de ",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:piston"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:bow"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "niewiem:pistol",
+    "count": 1
+  }
+}
