@@ -1,16 +1,18 @@
 {
   "block.niewiem.end_stem": "End Stem",
-  "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
   "item.niewiem.enderiorite_armor_chestplate": "Enderiorite Chestplate",
-  "item.niewiem.raw_enderiorite": "Raw Enderiorite",
+  "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
   "entity.niewiem.end_villager": "End Villager",
+  "item.niewiem.raw_enderiorite": "Raw Enderiorite",
   "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
+  "painting.niewiem.siurek.title": "Siurek",
   "block.niewiem.end_shroom": "End Shroom",
   "enchantment.niewiem.poison": "Poison",
   "gui.niewiem.end_villager_trade_gui.button_trade": "trade",
   "block.niewiem.end_flower": "End Flower",
   "biome.niewiem.end_biome_01": "End Biome 0 1",
   "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
+  "item.niewiem.onderiorite_necklace": "Onderiorite Necklace",
   "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg",
   "item.niewiem.small_bullet": "Small Bullet",
   "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",
@@ -25,5 +27,6 @@
   "biome.niewiem.rainforest": "Rainforest",
   "block.niewiem.enderiote": "Enderiorite",
   "item.niewiem.cream_puff": "Cream Puff",
+  "painting.niewiem.siurek.author": "Krupnik",
   "item_group.niewiem.oclototitemus": "ocelot\u0027s items"
 }
