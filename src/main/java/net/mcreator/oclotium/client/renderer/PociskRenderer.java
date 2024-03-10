@@ -1,11 +1,22 @@
 package net.mcreator.oclotium.client.renderer;
 
+import net.minecraft.util.Mth;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.texture.OverlayTexture;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.entity.EntityRenderer;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
+
+import net.mcreator.oclotium.entity.PociskEntity;
+import net.mcreator.oclotium.client.model.Modelsmallbullet;
+
 import com.mojang.math.Axis;
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
 
 public class PociskRenderer extends EntityRenderer<PociskEntity> {
-
 	private static final ResourceLocation texture = new ResourceLocation("niewiem:textures/entities/rrrrrrrrrr.png");
-
 	private final Modelsmallbullet model;
 
 	public PociskRenderer(EntityRendererProvider.Context context) {
@@ -21,7 +32,6 @@ public class PociskRenderer extends EntityRenderer<PociskEntity> {
 		poseStack.mulPose(Axis.ZP.rotationDegrees(90 + Mth.lerp(partialTicks, entityIn.xRotO, entityIn.getXRot())));
 		model.renderToBuffer(poseStack, vb, packedLightIn, OverlayTexture.NO_OVERLAY, 1, 1, 1, 0.0625f);
 		poseStack.popPose();
-
 		super.render(entityIn, entityYaw, partialTicks, poseStack, bufferIn, packedLightIn);
 	}
 
@@ -29,5 +39,4 @@ public class PociskRenderer extends EntityRenderer<PociskEntity> {
 	public ResourceLocation getTextureLocation(PociskEntity entity) {
 		return texture;
 	}
-
 }

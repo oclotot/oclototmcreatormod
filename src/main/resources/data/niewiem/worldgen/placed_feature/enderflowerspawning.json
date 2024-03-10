@@ -24,7 +24,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": "#forge:endstone",
+        "blocks": "niewiem:endstonegrassblock",
         "offset": [
           0,
           -1,
@@ -37,8 +37,8 @@
       "count": {
         "type": "uniform",
         "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 10
+          "min_inclusive": 5,
+          "max_inclusive": 15
         }
       }
     }

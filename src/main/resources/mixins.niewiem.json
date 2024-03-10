@@ -9,7 +9,9 @@
     "ClimateSamplerMixin",
     "NoiseConfigMixin",
     "ChunkNoiseSamplerMixin",
-    "NoiseGeneratorSettingsAccess"
+    "NoiseGeneratorSettingsAccess",
+    "ChorusFlowerBlockMixin",
+    "ChorusPlantBlockMixin"
   ],
   "client": [],
   "minVersion": "0.8"

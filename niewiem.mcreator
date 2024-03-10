@@ -449,6 +449,18 @@
         "files": []
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "EndstoneShit",
+      "type": "endstone",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_shit",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],

@@ -1,6 +1,10 @@
 package net.mcreator.oclotium.entity.model;
 
-import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.oclotium.entity.SkibidiToiletFinalBossEntity;
 
 public class SkibidiToiletFinalBossModel extends GeoModel<SkibidiToiletFinalBossEntity> {
 	@Override
