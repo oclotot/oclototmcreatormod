@@ -702,7 +702,6 @@
     {
       "name": "EnderioriteArmor",
       "type": "armor",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor",
@@ -718,9 +717,21 @@
       "path": "~/krupnik"
     },
     {
+      "name": "EnderioriteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiorite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/enderiorite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/krupnik"
+    },
+    {
       "name": "EnderioriteArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_helmet_recipe",
@@ -734,7 +745,6 @@
     {
       "name": "EnderioriteArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_chestplate_recipe",
@@ -748,27 +758,12 @@
     {
       "name": "EnderioriteArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderiorite_armor_leggings_recipe",
       "metadata": {
         "files": [
           "src/main/resources/data/niewiem/recipes/enderiorite_armor_leggings_recipe.json"
-        ]
-      },
-      "path": "~/krupnik"
-    },
-    {
-      "name": "EnderioriteArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enderiorite_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/niewiem/recipes/enderiorite_armor_boots_recipe.json"
         ]
       },
       "path": "~/krupnik"
