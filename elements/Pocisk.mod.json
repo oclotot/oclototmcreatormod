@@ -5,7 +5,7 @@
     "projectileItem": {
       "value": "CUSTOM:SmallBullet"
     },
-    "showParticles": true,
+    "showParticles": false,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
@@ -13,7 +13,7 @@
     "power": 3.0,
     "damage": 2.0,
     "knockback": 2,
-    "entityModel": "Modelbullets",
-    "customModelTexture": "bullettexture.png"
+    "entityModel": "Modelsmallbullet",
+    "customModelTexture": "rrrrrrrrrr.png"
   }
 }

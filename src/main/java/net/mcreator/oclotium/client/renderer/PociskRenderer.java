@@ -9,19 +9,19 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.oclotium.entity.PociskEntity;
-import net.mcreator.oclotium.client.model.Modelbullets;
+import net.mcreator.oclotium.client.model.Modelsmallbullet;
 
 import com.mojang.math.Axis;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
 public class PociskRenderer extends EntityRenderer<PociskEntity> {
-	private static final ResourceLocation texture = new ResourceLocation("niewiem:textures/entities/bullettexture.png");
-	private final Modelbullets model;
+	private static final ResourceLocation texture = new ResourceLocation("niewiem:textures/entities/rrrrrrrrrr.png");
+	private final Modelsmallbullet model;
 
 	public PociskRenderer(EntityRendererProvider.Context context) {
 		super(context);
-		model = new Modelbullets(context.bakeLayer(Modelbullets.LAYER_LOCATION));
+		model = new Modelsmallbullet(context.bakeLayer(Modelsmallbullet.LAYER_LOCATION));
 	}
 
 	@Override
