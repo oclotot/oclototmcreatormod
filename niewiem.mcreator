@@ -475,6 +475,20 @@
         "files": []
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "Recipeforpistol",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipeforpistol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/recipes/recipeforpistol.json"
+        ]
+      },
+      "path": "~/krupnik"
     }
   ],
   "variable_elements": [],
