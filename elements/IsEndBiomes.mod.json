@@ -7,7 +7,23 @@
     "blocks": [],
     "functions": [],
     "entities": [],
-    "biomes": [],
+    "biomes": [
+      {
+        "value": "end_barrens"
+      },
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_midlands"
+      },
+      {
+        "value": "small_end_islands"
+      },
+      {
+        "value": "the_end"
+      }
+    ],
     "damageTypes": [],
     "name": "is_end",
     "namespace": "minecraft"

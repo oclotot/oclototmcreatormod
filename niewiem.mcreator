@@ -349,7 +349,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/dirt.json"
         ]
-      }
+      },
+      "path": "~/ocelot"
     },
     {
       "name": "LogBlocks",
@@ -362,7 +363,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/logs.json"
         ]
-      }
+      },
+      "path": "~/ocelot"
     },
     {
       "name": "IsOverworldBiomes",
@@ -375,7 +377,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
         ]
-      }
+      },
+      "path": "~/ocelot"
     },
     {
       "name": "IsEndBiomes",
@@ -388,7 +391,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
         ]
-      }
+      },
+      "path": "~/ocelot"
     },
     {
       "name": "Endstones",
@@ -419,6 +423,20 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "EndBiome01",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_biome_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/biome/end_biome_01.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
@@ -435,6 +453,7 @@
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
       "item.niewiem.cream_puff": "Cream Puff",
+      "biome.niewiem.end_biome_01": "End Biome 0 1",
       "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
       "item_group.niewiem.oclototitemus": "ocelot\u0027s items",
       "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"
