@@ -24,7 +24,7 @@ import net.mcreator.oclotium.NiewiemMod;
 public class NiewiemModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, NiewiemMod.MODID);
 	public static final RegistryObject<EntityType<SkibidiToiletFinalBossEntity>> SKIBIDI_TOILET_FINAL_BOSS = register("skibidi_toilet_final_boss",
-			EntityType.Builder.<SkibidiToiletFinalBossEntity>of(SkibidiToiletFinalBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<SkibidiToiletFinalBossEntity>of(SkibidiToiletFinalBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3)
 					.setCustomClientFactory(SkibidiToiletFinalBossEntity::new)
 
 					.sized(0.8f, 1.7f));
