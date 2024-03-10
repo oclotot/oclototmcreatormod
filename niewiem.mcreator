@@ -698,6 +698,21 @@
         ]
       },
       "path": "~/krupnik"
+    },
+    {
+      "name": "Onplayertick",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onplayertick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/oclotium/procedures/OnplayertickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
