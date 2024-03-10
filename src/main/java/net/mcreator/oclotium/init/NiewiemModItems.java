@@ -28,6 +28,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> SKIBIDI_TOILET_FINAL_BOSS_SPAWN_EGG = REGISTRY.register("skibidi_toilet_final_boss_spawn_egg", () -> new ForgeSpawnEggItem(NiewiemModEntities.SKIBIDI_TOILET_FINAL_BOSS, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
 	public static final RegistryObject<Item> SMALL_BULLET = REGISTRY.register("small_bullet", () -> new SmallBulletItem());
+	public static final RegistryObject<Item> ENDSTONEGRASSBLOCK = block(NiewiemModBlocks.ENDSTONEGRASSBLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -4,13 +4,16 @@
  */
 package net.mcreator.oclotium.init;
 
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.oclotium.NiewiemMod;
@@ -18,6 +21,12 @@ import net.mcreator.oclotium.NiewiemMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class NiewiemModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NiewiemMod.MODID);
+	public static final RegistryObject<CreativeModeTab> OCLOTOTITEMUS = REGISTRY.register("oclototitemus",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.niewiem.oclototitemus")).icon(() -> new ItemStack(NiewiemModBlocks.ENDER_FLOWER.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(NiewiemModBlocks.ENDSTONEGRASSBLOCK.get().asItem());
+			})
+
+					.build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

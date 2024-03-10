@@ -2,14 +2,14 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "enderioteore",
-    "textureTop": "",
-    "textureLeft": "enderioteore",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "end_stone",
+    "textureTop": "endstonegrasstop",
+    "textureLeft": "endstonegrass",
+    "textureFront": "endstonegrass",
+    "textureRight": "endstonegrass",
+    "textureBack": "endstonegrass",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,37 +33,37 @@
         "subtract": false
       }
     ],
-    "name": "Enderiorite",
+    "name": "Endstonegrassblock",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 3.0,
+    "resistance": 9.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Oclototitemus"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:RawEnderiorite"
+      "value": "Blocks.END_STONE"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 5,
+    "tickRate": 40,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
-      "fixedValue": 15.0
+      "fixedValue": 14.0
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "ANCIENT_DEBRIS"
+      "value": "NYLIUM"
     },
     "breakSound": {
       "value": ""
@@ -119,33 +119,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "EndstonegrassblockUpdateTick"
+    },
+    "onEntityWalksOn": {
+      "name": "EndstonegrassblockEntityWalksOnTheBlock"
+    },
     "generateFeature": false,
-    "restrictionBiomes": [
-      {
-        "value": "end_barrens"
-      },
-      {
-        "value": "end_highlands"
-      },
-      {
-        "value": "the_end"
-      },
-      {
-        "value": "small_end_islands"
-      },
-      {
-        "value": "end_midlands"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.END_STONE"
+        "value": "TAG:stone_ore_replaceables"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 128
+    "maxGenerateHeight": 64
   }
 }
