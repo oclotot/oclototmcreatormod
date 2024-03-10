@@ -704,21 +704,29 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.niewiem.raw_enderiorite": "Raw Enderiorite",
-      "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
-      "enchantment.niewiem.poison": "Poison",
-      "biome.niewiem.end_biome_01": "End Biome 0 1",
-      "block.niewiem.end_flower": "End Flower",
-      "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
-      "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg",
       "item.niewiem.small_bullet": "Small Bullet",
+      "gui.niewiem.end_villager_trade_gui.label_1_emerald_3_end_flowers": "1 emerald ----\u003e 3 end flowers",
+      "gui.niewiem.end_villager_trade_gui.label_1_enderiorite_2_emeralds": "1 emerald ----\u003e 5 cream puffs",
+      "block.niewiem.end_stem": "End Stem",
+      "item.niewiem.paxel": "Paxel",
+      "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
       "enchantment.niewiem.slownless": "Slownless",
       "block.niewiem.endstonegrassblock": "Endstonegrassblock",
+      "item.niewiem.raw_enderiorite": "Raw Enderiorite",
+      "entity.niewiem.end_villager": "End Villager",
       "item.niewiem.pistol": "Pistol",
+      "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
+      "block.niewiem.end_shroom": "End Shroom",
+      "enchantment.niewiem.poison": "Poison",
+      "gui.niewiem.end_villager_trade_gui.button_trade": "trade",
+      "biome.niewiem.end_biome_01": "End Biome 0 1",
+      "block.niewiem.end_flower": "End Flower",
       "item.niewiem.cream_puff": "Cream Puff",
-      "item_group.niewiem.oclototitemus": "ocelot\u0027s items"
+      "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
+      "item_group.niewiem.oclototitemus": "ocelot\u0027s items",
+      "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"
     }
   },
   "foldersRoot": {
