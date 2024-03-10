@@ -437,6 +437,18 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "EndBiome11",
+      "type": "endbiome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_biome_11",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
