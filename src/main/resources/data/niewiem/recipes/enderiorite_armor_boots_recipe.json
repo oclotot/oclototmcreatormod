@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "niewiem:enderiorite_ingot"
+    }
+  },
+  "result": {
+    "item": "niewiem:enderiorite_armor_boots",
+    "count": 1
+  }
+}

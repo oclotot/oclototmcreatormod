@@ -38,6 +38,10 @@ public class NiewiemModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(NiewiemModItems.PISTOL.get());
 			tabData.accept(NiewiemModItems.SMALL_BULLET.get());
+			tabData.accept(NiewiemModItems.ENDERIORITE_ARMOR_HELMET.get());
+			tabData.accept(NiewiemModItems.ENDERIORITE_ARMOR_CHESTPLATE.get());
+			tabData.accept(NiewiemModItems.ENDERIORITE_ARMOR_LEGGINGS.get());
+			tabData.accept(NiewiemModItems.ENDERIORITE_ARMOR_BOOTS.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
