@@ -24,6 +24,7 @@ public class NiewiemModTabs {
 	public static final RegistryObject<CreativeModeTab> OCLOTOTITEMUS = REGISTRY.register("oclototitemus",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.niewiem.oclototitemus")).icon(() -> new ItemStack(NiewiemModBlocks.ENDER_FLOWER.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NiewiemModBlocks.ENDSTONEGRASSBLOCK.get().asItem());
+				tabData.accept(NiewiemModItems.CREAM_PUFF.get());
 			})
 
 					.build());

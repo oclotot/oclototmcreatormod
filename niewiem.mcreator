@@ -322,6 +322,21 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "CreamPuff",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream_puff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/niewiem/models/item/cream_puff.json",
+          "src/main/java/net/mcreator/oclotium/item/CreamPuffItem.java"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
@@ -337,6 +352,7 @@
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "biome.niewiem.rainforest": "Rainforest",
       "block.niewiem.enderiote": "Enderiorite",
+      "item.niewiem.cream_puff": "Cream Puff",
       "entity.niewiem.skibidi_toilet_final_boss": "Skibidi Toilet Final Boss",
       "item_group.niewiem.oclototitemus": "ocelot\u0027s items",
       "item.niewiem.skibidi_toilet_final_boss_spawn_egg": "Skibidi Toilet Final Boss Spawn Egg"

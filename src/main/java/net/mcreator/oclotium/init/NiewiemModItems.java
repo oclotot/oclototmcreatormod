@@ -17,6 +17,7 @@ import net.mcreator.oclotium.item.SmallBulletItem;
 import net.mcreator.oclotium.item.RawEnderioriteItem;
 import net.mcreator.oclotium.item.PistolItem;
 import net.mcreator.oclotium.item.EnderioriteIngotItem;
+import net.mcreator.oclotium.item.CreamPuffItem;
 import net.mcreator.oclotium.NiewiemMod;
 
 public class NiewiemModItems {
@@ -29,6 +30,7 @@ public class NiewiemModItems {
 	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
 	public static final RegistryObject<Item> SMALL_BULLET = REGISTRY.register("small_bullet", () -> new SmallBulletItem());
 	public static final RegistryObject<Item> ENDSTONEGRASSBLOCK = block(NiewiemModBlocks.ENDSTONEGRASSBLOCK);
+	public static final RegistryObject<Item> CREAM_PUFF = REGISTRY.register("cream_puff", () -> new CreamPuffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
