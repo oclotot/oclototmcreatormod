@@ -9,11 +9,11 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 15,
+    "separation": 10,
     "restrictionBiomes": [
       {
-        "value": "#is_end"
+        "value": "end_highlands"
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",
