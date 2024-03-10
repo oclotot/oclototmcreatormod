@@ -10,8 +10,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/niewiem/worldgen/configured_feature/rainforest_tree.json",
-          "src/main/resources/data/niewiem/worldgen/biome/rainforest.json",
-          "src/main/resources/data/niewiem/worldgen/placed_feature/rainforest_tree.json"
+          "src/main/resources/data/niewiem/worldgen/placed_feature/rainforest_tree.json",
+          "src/main/resources/data/niewiem/worldgen/biome/rainforest.json"
         ]
       },
       "path": "~/krupnik"
@@ -39,10 +39,10 @@
       "registry_name": "enderiote",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/oclotium/block/EnderioteBlock.java",
-          "src/main/resources/assets/niewiem/blockstates/enderiote.json",
           "src/main/resources/assets/niewiem/models/block/enderiote.json",
-          "src/main/resources/assets/niewiem/models/item/enderiote.json"
+          "src/main/java/net/mcreator/oclotium/block/EnderioteBlock.java",
+          "src/main/resources/assets/niewiem/models/item/enderiote.json",
+          "src/main/resources/assets/niewiem/blockstates/enderiote.json"
         ]
       },
       "path": "~/ocelot"
@@ -80,8 +80,8 @@
       "registry_name": "enderiorite_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/niewiem/models/item/enderiorite_ingot.json",
-          "src/main/java/net/mcreator/oclotium/item/EnderioriteIngotItem.java"
+          "src/main/java/net/mcreator/oclotium/item/EnderioriteIngotItem.java",
+          "src/main/resources/assets/niewiem/models/item/enderiorite_ingot.json"
         ]
       },
       "path": "~/ocelot"
@@ -138,10 +138,10 @@
       "registry_name": "ender_flower",
       "metadata": {
         "files": [
-          "src/main/resources/assets/niewiem/models/item/ender_flower.json",
           "src/main/java/net/mcreator/oclotium/block/EnderFlowerBlock.java",
+          "src/main/resources/assets/niewiem/models/block/ender_flower.json",
           "src/main/resources/assets/niewiem/blockstates/ender_flower.json",
-          "src/main/resources/assets/niewiem/models/block/ender_flower.json"
+          "src/main/resources/assets/niewiem/models/item/ender_flower.json"
         ]
       },
       "path": "~/ocelot"
@@ -155,9 +155,9 @@
       "registry_name": "skibidi_toilet_final_boss",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/oclotium/entity/SkibidiToiletFinalBossEntity.java",
           "src/main/java/net/mcreator/oclotium/client/renderer/SkibidiToiletFinalBossRenderer.java",
           "src/main/resources/assets/niewiem/models/item/skibidi_toilet_final_boss_spawn_egg.json",
-          "src/main/java/net/mcreator/oclotium/entity/SkibidiToiletFinalBossEntity.java",
           "src/main/java/net/mcreator/oclotium/entity/model/SkibidiToiletFinalBossModel.java"
         ]
       },
@@ -230,9 +230,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/niewiem/blockstates/endstonegrassblock.json",
-          "src/main/java/net/mcreator/oclotium/block/EndstonegrassblockBlock.java",
+          "src/main/resources/assets/niewiem/models/block/endstonegrassblock.json",
           "src/main/resources/assets/niewiem/models/item/endstonegrassblock.json",
-          "src/main/resources/assets/niewiem/models/block/endstonegrassblock.json"
+          "src/main/java/net/mcreator/oclotium/block/EndstonegrassblockBlock.java"
         ]
       },
       "path": "~/ocelot"
@@ -332,8 +332,8 @@
       "registry_name": "cream_puff",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/oclotium/item/CreamPuffItem.java",
-          "src/main/resources/assets/niewiem/models/item/cream_puff.json"
+          "src/main/resources/assets/niewiem/models/item/cream_puff.json",
+          "src/main/java/net/mcreator/oclotium/item/CreamPuffItem.java"
         ]
       },
       "path": "~/ocelot"
@@ -417,9 +417,9 @@
       "registry_name": "enderflowerspawning",
       "metadata": {
         "files": [
+          "src/main/resources/data/niewiem/worldgen/placed_feature/enderflowerspawning.json",
           "src/main/resources/data/niewiem/worldgen/configured_feature/enderflowerspawning.json",
-          "src/main/resources/data/niewiem/forge/biome_modifier/enderflowerspawning_biome_modifier.json",
-          "src/main/resources/data/niewiem/worldgen/placed_feature/enderflowerspawning.json"
+          "src/main/resources/data/niewiem/forge/biome_modifier/enderflowerspawning_biome_modifier.json"
         ]
       },
       "path": "~/ocelot"
