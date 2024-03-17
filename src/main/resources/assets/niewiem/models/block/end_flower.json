@@ -4,5 +4,5 @@
     "cross": "niewiem:block/enderflowertexture",
     "particle": "niewiem:block/enderflowertexture"
   },
-  "render_type": "translucent"
+  "render_type": "cutout_mipped"
 }

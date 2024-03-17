@@ -542,22 +542,6 @@
       "path": "~/ocelot"
     },
     {
-      "name": "BigShroomSpawning",
-      "type": "feature",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_shroom_spawning",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/niewiem/forge/biome_modifier/big_shroom_spawning_biome_modifier.json",
-          "src/main/resources/data/niewiem/worldgen/configured_feature/big_shroom_spawning.json",
-          "src/main/resources/data/niewiem/worldgen/placed_feature/big_shroom_spawning.json"
-        ]
-      },
-      "path": "~/ocelot"
-    },
-    {
       "name": "EndVillagerTradeGUI",
       "type": "gui",
       "sortid": 36,
@@ -814,6 +798,86 @@
         ]
       },
       "path": "~/ocelot"
+    },
+    {
+      "name": "SmallShroom0",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_shroom_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/structure_set/small_shroom_0.json",
+          "src/main/resources/data/niewiem/worldgen/structure/small_shroom_0.json",
+          "src/main/resources/data/niewiem/worldgen/template_pool/small_shroom_0.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "SmallShroom1",
+      "type": "structure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_shroom_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/structure/small_shroom_1.json",
+          "src/main/resources/data/niewiem/worldgen/structure_set/small_shroom_1.json",
+          "src/main/resources/data/niewiem/worldgen/template_pool/small_shroom_1.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "SmallShroom2",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_shroom_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/structure_set/small_shroom_2.json",
+          "src/main/resources/data/niewiem/worldgen/structure/small_shroom_2.json",
+          "src/main/resources/data/niewiem/worldgen/template_pool/small_shroom_2.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "MediumShroom0",
+      "type": "structure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medium_shroom_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/structure_set/medium_shroom_0.json",
+          "src/main/resources/data/niewiem/worldgen/structure/medium_shroom_0.json",
+          "src/main/resources/data/niewiem/worldgen/template_pool/medium_shroom_0.json"
+        ]
+      },
+      "path": "~/ocelot"
+    },
+    {
+      "name": "BigShroom0",
+      "type": "structure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_shroom_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/niewiem/worldgen/structure/big_shroom_0.json",
+          "src/main/resources/data/niewiem/worldgen/template_pool/big_shroom_0.json",
+          "src/main/resources/data/niewiem/worldgen/structure_set/big_shroom_0.json"
+        ]
+      },
+      "path": "~/ocelot"
     }
   ],
   "variable_elements": [],
@@ -821,10 +885,10 @@
   "language_map": {
     "en_us": {
       "block.niewiem.end_stem": "End Stem",
-      "item.niewiem.enderiorite_armor_chestplate": "Enderiorite Chestplate",
       "item.niewiem.end_villager_spawn_egg": "End Villager Spawn Egg",
-      "entity.niewiem.end_villager": "End Villager",
+      "item.niewiem.enderiorite_armor_chestplate": "Enderiorite Chestplate",
       "item.niewiem.raw_enderiorite": "Raw Enderiorite",
+      "entity.niewiem.end_villager": "End Villager",
       "item.niewiem.enderiorite_ingot": "Enderiorite Ingot",
       "painting.niewiem.siurek.title": "Siurek",
       "block.niewiem.end_shroom": "End Shroom",

@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "niewiem:big_shroom_spawning",
-  "step": "surface_structures"
-}
